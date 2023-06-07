@@ -16,7 +16,6 @@ body {
 section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    border: 1px dashed red;
 }
 
 h1 {
@@ -29,6 +28,7 @@ h2{
 
 h3{
     padding-bottom: 1rem;
+    font-size: 1.4rem;
 }
 
 .nav-container {
@@ -215,20 +215,43 @@ hr{
     flex-grow: 1;
 }
 
-
-
-
-
-/* .small-container{
-    max-width: 920px;
-    padding: 44px 0;
-    border: 1px dashed blue;
+.img-col{
+    flex-basis: 55%;
+}
+img{
+    width: 100%;
+    object-fit: fill;
+}
+.col-text{
+    width: 45%;
+    padding: 2rem;
 }
 
-.row{
-    padding-top: 11px;
-    border: 1px dashed red;
+.col-text h2{
+    padding-bottom: 2rem;
 }
+
+.btn-white{
+    border: 1px solid;
+    background-color: white;
+}
+
+.col-width{
+    width: 33%;
+}
+
+.col-width img{
+    object-fit: fill;
+    width: 100%;
+}
+
+.col-img, .col-description{
+    padding: 1rem;
+}
+
+/* 
+
+
 
 .col-container{
     border: 1px dashed green;
